@@ -839,7 +839,7 @@ input::-moz-focus-inner {
 
 .align {
   overflow: hidden;
-  width: 50%;
+  width: 100%;
   float: left;
   position:inherit;
   padding: 20px;
@@ -2382,9 +2382,9 @@ html.no-csstransitions .home-content__main {
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
 .masonry-wrap {
-  /* margin-top: 6rem; */
-  /* max-width: none; */
-  /* width: 1380px; */
+  margin-top: 6rem;
+  max-width: none;
+  width: 1380px;
 }
 
 .masonry:after {
@@ -2574,7 +2574,7 @@ html.no-csstransitions .home-content__main {
 
   .masonry .grid-sizer,
   .masonry__brick {
-    /* width: 386px; */
+    width: 386px;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -2584,7 +2584,7 @@ html.no-csstransitions .home-content__main {
 
   .masonry .grid-sizer,
   .masonry__brick {
-    /* width: 330px; */
+    width: 330px;
   }
 }
 @media only screen and (max-width: 1200px) {
